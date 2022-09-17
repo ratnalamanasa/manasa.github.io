@@ -1,0 +1,99 @@
+body{
+background-image: url("https://cdn.vectorstock.com/i/1000x1000/43/82/math-formulas-and-crayons-drawn-on-a-chalkboard-vector-21724382.webp");
+}
+.box{
+    background-color:black;
+    height:300px;
+    width:270px;
+    border-radius:10px;
+    position:relative;
+    top:80px;
+    left:40%;
+}
+.display{
+    background-color: antiquewhite;
+    width:220px;
+    position:relative;
+    left:15px;
+    top:20px;
+    height:40px;
+}
+.display input{
+    position: relative;
+    left:2px;
+    top:2px;
+    height:35px;
+    color: aquamarine;
+    background-color:rgb(27, 26, 26);
+    font-size:21px;
+    text-align:right;
+}
+.keys{
+    position: relative;
+    top:15px;
+}
+.button{
+    width:40px;
+    height:30px;
+    border-radius:8px;
+    margin-left:17px;
+    cursor:pointer;
+    border-top:2px soild transparent;
+}
+.button.gray{
+    color:blueviolet;
+    font-color:black;
+    background-color: aquamarine;
+    border-bottom:pink;
+    border-top:2px;
+}
+.title{
+    margin:bottom 10px;
+    margin-top:30px;
+    padding:5px 0;
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    color:aquamarine;
+    font-family:"cookie",cursive;
+}
+.button.pink{
+    color:aqua;
+    background-color:aquamarine;
+    border-bottom:black 2px solid;
+}
+.buttom.black{
+    color:blanchedalmond;
+    background-color: blanchedalmond;
+    border-bottom:black 2px solid;
+    border-top:2px pink;
+    font-weight:bold;
+}
+.button.orange{
+    color:bisque;
+    background-color: blueviolet;
+    border-bottom:plum 2px solid;
+    border-top: yellow2px solid;
+}
+.gray:active{
+    border-top:black 2px solid;
+    bprder-bottom:red 2px solid;
+}
+.pink active{
+    border-top:red 2px solid;
+    border-bottom:pink 2px solid;
+}
+.black:active{
+    border-top:black 2px soild;
+    border-bottom:red 2px solid;
+}
+.orange:active{
+    border-top:royalblue 2px solid;
+    border-bottom: rebeccapurple 2px solid;
+}
+p{
+    line-height:10px;
+}
+
+
+
